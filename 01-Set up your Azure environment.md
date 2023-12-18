@@ -17,6 +17,12 @@ Sign in using the Azure CLI:
 az login
 ```
 
+
+#### Connect to Azure Government by setting the cloud with the name AzureUSGovernment.
+```bash
+az cloud set --name AzureUSGovernment
+```
+
 #### Select an Azure Subscription
 List your Azure subscriptions:
 ```bash
